@@ -3,17 +3,16 @@
   background-size: cover
   height: 900px
   text-align: center
-  overflow: auto
+  overflow: hidden
 
 
   article
     width: 80%
     margin: 0 auto
-  
+
 
     h1
       margin-bottom: 10px
-
 
   .main-nav
     display: flex
@@ -40,3 +39,52 @@ a.download
   color: white
   box-shadow: 0 10px 10px -10px rgba(0,0,0,.5)
   border-radius: 10px
+
+#brands ul
+  padding: 20px 0
+  background: white
+  display: grid
+  grid-template-columns: repeat(3, auto)
+  @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(2, auto)
+    align-items: center
+
+
+  li
+    list-style: none
+    width: 100%
+
+
+#features
+  background: bisque
+  text-align: center
+  position: relative
+  height: 600px
+  &:after
+    bottom: 0
+    position: absolute
+    background: inherit
+    content: ""
+    height: 50%
+    left: 0
+    right: 0
+    transform: skewY(-5deg)
+    transform-origin: 102%
+    z-index: -1
+
+
+  h2
+    margin: 80px
+
+
+.card
+  display: grid
+  grid-template-columns: repeat(3, auto)
+  grid-template-columns: repeat(3, auto)
+  grid-gap: 20px
+
+
+.features-card
+  background: antiquewhite
+  border-radius: 10px
+  padding: 20px
