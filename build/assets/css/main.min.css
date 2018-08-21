@@ -327,6 +327,59 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.main-nav {
+  display: flex;
+  margin-top: 20px;
+  padding: 0; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav a {
+    color: antiquewhite;
+    display: block;
+    border-radius: 4 px;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+
+a.download {
+  background: #f87728;
+  color: white;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px; }
+
+#offer {
+  margin-top: 100px; }
+
+.discountlayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.freetrial {
+  width: 40%;
+  margin: 0 50px; }
+
+h3 {
+  position: relative; }
+
+.button {
+  background: #fa780e;
+  background: linear-gradient(38deg, #fa780e 0%, #da0404 100%);
+  color: white;
+  align-items: center; }
+
+#footer {
+  text-align: center;
+  padding: 60px; }
+  #footer li {
+    list-style: none; }
+  #footer a {
+    padding: 0 10px;
+    text-transform: uppercase; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
@@ -345,53 +398,38 @@ hr {
   left: 0; }
 
 #header {
-  background: url("../img/firmbookback.jpg") no-repeat;
+  background: url("../img/firmbook9.jpg") no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 95vh;
   text-align: center;
   overflow: hidden; }
   #header article {
     width: 80%;
     margin: 0 auto; }
-    #header article h1 {
-      margin-bottom: 10px; }
-  #header .main-nav {
-    display: flex;
-    margin-top: 20px; }
-    #header .main-nav li {
-      list-style: none; }
-    #header .main-nav li:first-child {
-      margin-right: auto; }
-    #header .main-nav a {
-      color: black;
-      display: block;
-      border-radius: 4 px;
-      padding: 15px 30px;
-      text-decoration: none;
-      font-weight: 600;
-      text-transform: uppercase; }
+  #header h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: antiquewhite; }
+  #header h4 {
+    color: antiquewhite; }
 
-a.download {
-  background: white;
+.button {
   color: white;
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   border-radius: 10px; }
 
-#brands ul {
+#brands {
   padding: 20px 0;
-  background: white;
-  display: grid;
-  grid-template-columns: repeat(3, auto); }
-  @media only screen and (max-width: 550px) {
-    #brands ul {
-      grid-template-columns: repeat(2, auto);
-      align-items: center; } }
-  #brands ul li {
-    list-style: none;
-    width: 100%; }
+  background: azure; }
+
+h3 {
+  text-align: center;
+  color: black; }
+
+p {
+  text-align: center; }
 
 #features {
-  background: bisque;
+  background: antiquewhite;
   text-align: center;
   position: relative;
   height: 600px; }
@@ -416,6 +454,6 @@ a.download {
   grid-gap: 20px; }
 
 .features-card {
-  background: antiquewhite;
+  background: white;
   border-radius: 10px;
   padding: 20px; }
