@@ -346,30 +346,27 @@ hr {
 
 a.download {
   background: #f87728;
-  color: white;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   border-radius: 10px; }
 
-#offer {
-  margin-top: 100px; }
+#videooption {
+  margin-top: 600px;
+  text-align: center;
+  align-items: center; }
 
-.discountlayout {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+.videoconsultation {
+  display: flex; }
 
-.freetrial {
-  width: 40%;
-  margin: 0 50px; }
-
-h3 {
-  position: relative; }
+.consult {
+  margin: 60px; }
 
 .button {
   background: #fa780e;
   background: linear-gradient(38deg, #fa780e 0%, #da0404 100%);
-  color: white;
-  align-items: center; }
+  color: white; }
+  .button img {
+    border-radius: 10px;
+    shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); }
 
 #footer {
   text-align: center;
@@ -400,7 +397,7 @@ h3 {
 #header {
   background: url("../img/firmbook9.jpg") no-repeat;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
   text-align: center;
   overflow: hidden; }
   #header article {
@@ -410,12 +407,14 @@ h3 {
     margin-top: 50px;
     margin-bottom: 40px;
     color: antiquewhite; }
-  #header h4 {
-    color: antiquewhite; }
+  #header p {
+    color: antiquewhite;
+    font-size: 19px; }
 
 .button {
-  color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background: #fa780e;
+  background: linear-gradient(38deg, #fa780e 0%, #da0404 100%); }
 
 #brands {
   padding: 20px 0;
@@ -429,7 +428,7 @@ p {
   text-align: center; }
 
 #features {
-  background: antiquewhite;
+  background: white;
   text-align: center;
   position: relative;
   height: 600px; }
@@ -449,11 +448,13 @@ p {
 
 .card {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 20px; }
+  @media only screen and (max-width: 5050px) {
+    .card {
+      grid-template-columns: repeat(3, auto); } }
 
 .features-card {
   background: white;
   border-radius: 10px;
-  padding: 20px; }
+  padding: 30px; }
